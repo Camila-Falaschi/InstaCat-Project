@@ -1,0 +1,73 @@
+:root {
+    --main-color: #FFFFFF; /* Cor de fundo principal */
+    --text-color: #000000; /* Cor para texto em geral */
+    --second-color: #BB86FC; /* Cor para alguns títulos */
+    --highlight-color: #7F39FB; /* Cor de destaque */
+}
+  
+html, body {
+    height: 100%;
+}
+
+body, main {
+    font-family: 'Roboto Mono', monospace, 'Roboto', sans-serif;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+  
+h1 {
+    color: var(--second-color);
+}
+
+.img-cover {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.purple-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(127, 57, 251, 0.15);
+}
+
+.logo {
+    max-width: 180px;
+    pointer-events: none;
+}
+
+.home-section {
+    gap: 5%;
+}
+
+.gap-description {
+    gap: 20px;
+}
+
+.description-text {
+    color: #6B6969;
+}
+
+.button-section {
+    gap: 20px;
+    width: 300px;
+}
+
+.button {
+    width: 100%;
+    color: white;
+}
+
+.normal-button {
+    background-color: var(--second-color);
+}
+
+.highlight-button {
+    background-color: var(--highlight-color);
+}
