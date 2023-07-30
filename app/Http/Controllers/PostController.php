@@ -15,7 +15,9 @@ class PostController extends Controller
      */
     public function index(): View
     {
-        return view('posts.index');
+        return view('posts.index', [
+            'posts' => Post::with('user')->latest()->get(),
+        ]);
     }
 
     /**
@@ -35,9 +37,9 @@ class PostController extends Controller
             'message' => 'required|string|max:255',
         ]);
  
-        $request->user()->chirps()->create($validated);
+        $request->user()->posts()->create($validated);
  
-        return redirect(route('chirps.index'));
+        return redirect(route('home'));
     }
 
     /**

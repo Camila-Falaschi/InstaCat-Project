@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProfileController;
+use App\Models\Post;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,7 +21,8 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function () {
-    return view('home');
+    $posts = Post::with('user')->latest()->get();
+    return view('home', compact('posts'));
 })->middleware(['auth', 'verified'])->name('home');
 
 Route::resource('posts', PostController::class)
