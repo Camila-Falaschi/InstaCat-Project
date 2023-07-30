@@ -35,10 +35,20 @@
                         <p>:･ﾟ✧(=^･ ᆺ ･^=):･ﾟ✧</p>
                     </div>
                 </div>
-                <div class="d-flex button-section flex-column align-items-center text-center">
-                    <button class="btn button normal-button btn-lg mb-2">SIGN UP</button>
-                    <button class="btn button highlight-button btn-lg">LOGIN</button>
-                </div>   
+                
+                @if (Route::has('login'))
+                    <div class="d-flex button-section flex-column align-items-center text-center">
+                        @auth
+                            <a href="{{ url('/home') }}" class="btn button highlight-button btn-lg">HOME</a>
+                        @else
+                            <a href="{{ route('login') }}" class="btn button highlight-button btn-lg">LOGIN</a>
+
+                            @if (Route::has('register'))
+                                <a href="{{ route('register') }}" class="btn button normal-button btn-lg mb-2">SIGN UP</a>
+                            @endif
+                        @endauth
+                    </div>
+                @endif   
             </section>
         </main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

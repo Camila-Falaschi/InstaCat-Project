@@ -1,0 +1,21 @@
+:root {
+    --main-color: #ffffff; /* Cor de fundo principal */
+    --text-color: #000000; /* Cor para texto em geral */
+    --second-color: #BB86FC; /* Cor para alguns títulos */
+    --highlight-color: #7F39FB; /* Cor de destaque */
+}
+
+body, main {
+    font-family: 'Roboto Mono', monospace, 'Roboto', sans-serif;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+  
+header-title {
+    color: var(--second-color);
+}
+
+.highlight-button {
+    background-color: var(--highlight-color);
+}
