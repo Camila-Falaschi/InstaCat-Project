@@ -1,3 +1,31 @@
+<div align="center">
+  <img src="https://github.com/Camila-Falaschi/InstaCat-Project/assets/102390423/14558f15-7fe8-4f89-bb6e-6477d2b456c8" width="80" alt="InstaCat Logo">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/Camila-Falaschi/InstaCat-Project/assets/102390423/f11cd58b-241c-4d02-ad64-7f55ad471c30" width="200" alt="InstaCat Text Logo">
+</div>
+
+## About the project
+InstaCat Project is a social media platform dedicated to cats. It was created to put into practice the knowledge gained during the Laravel Bootcamp. This is the first version of the platform.
+
+As a user, you have the ability to:
+- Create and maintain your own account
+- Create and manage your own posts
+- View posts from other users.
+
+<br/>
+
+## Demo
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=atoblMKP-BI">
+    <img src="https://github.com/Camila-Falaschi/InstaCat-Project/assets/102390423/75f16c26-19c1-4dfb-9322-8e79908770f9" alt="project video" width="500">
+  </a>
+</div>
+<br/>
+<br/>
+
+***
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
