@@ -15,12 +15,14 @@ As a user, you have the ability to:
 <br/>
 
 ## Demo
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=atoblMKP-BI">
-    <img src="https://github.com/Camila-Falaschi/InstaCat-Project/assets/102390423/75f16c26-19c1-4dfb-9322-8e79908770f9" alt="project video" width="500">
-  </a>
-</div>
+You can view this video on [YouTube](https://www.youtube.com/watch?v=atoblMKP-BI).
+
 <br/>
+
+<img src="https://github.com/Camila-Falaschi/InstaCat-Project/assets/102390423/c06fce66-9dc8-42d9-bc9b-de28302f6921" alt="project gif" width="700">
+
+<br/>
+
 <br/>
 
 ***
