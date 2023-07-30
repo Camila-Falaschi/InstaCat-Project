@@ -73,6 +73,9 @@
             <x-responsive-nav-link :href="route('home')" :active="request()->routeIs('home')">
                 {{ __('Home') }}
             </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('posts.index')" :active="request()->routeIs('posts.index')">
+                {{ __('Create a Post') }}
+            </x-responsive-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->
